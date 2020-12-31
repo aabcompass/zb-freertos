@@ -1,0 +1,13 @@
+setws
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/Source/include}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-FAT/portable/common}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-FAT/portable}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-TCP/portable/NetworkInterface}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-CLI}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-TCP/include}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-TCP/protocols/include}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-TCP/portable/Compiler/GCC}\" 
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/FreeRTOS-Plus-FAT/include}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src/Source/portable/GCC/ARM_CA9}\"
+configapp -app fr_proj -add include-path \"\${workspace_loc:/\${ProjName}/src}\"
+
